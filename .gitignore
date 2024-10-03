@@ -76,3 +76,6 @@ crashlytics-build.properties
 
 #Draw.io
 **/**/*.drawio
+
+#.prueba
+**/.prueba
