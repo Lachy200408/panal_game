@@ -74,8 +74,9 @@ crashlytics-build.properties
 #.vscode
 .vscode
 
-#Draw.io
-**/**/*.drawio
+#Draw.io and AI
+**/**/*.drawio*
+**/**/*.ai*
 
 #.prueba
 **/.prueba
