@@ -78,5 +78,5 @@ crashlytics-build.properties
 **/**/*.drawio*
 **/**/*.ai*
 
-#.prueba
-**/.prueba
+#.DS_Store
+**/**/.DS_Store
