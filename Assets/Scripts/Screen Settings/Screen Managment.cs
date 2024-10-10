@@ -29,7 +29,10 @@ public class ScreenManagment : MonoBehaviour
     public void SwitchResolution(int side)
     {//Metodo llamado desde el inspector, encargado de variar la resolucion segun quiera el usuario
         SelectedResolution = (SelectedResolution + side)% Resolutions.Count;
+        if(SelectedResolution< 0)
+        SelectedResolution += Resolutions.Count;
         TextoResolution.text = Resolutions[SelectedResolution].Type + ": " + Resolutions[SelectedResolution].Vertical + " X "+ Resolutions[SelectedResolution].Horizontal;
+        Debug.Log("Resoluciones Cambiadas"+ SelectedResolution);
     }
 
     public void ApplyChanges()
